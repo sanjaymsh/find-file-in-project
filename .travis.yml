@@ -2,6 +2,9 @@ language: nix
 
 os:
   - linux
+arch:
+  - amd64
+  - ppc64le
 
 env:
   - EMACS_CI=emacs-24-4
